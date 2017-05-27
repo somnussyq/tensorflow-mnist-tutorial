@@ -1,0 +1,22 @@
+学习笔记
+作者: Song yq
+
+1.首先需要有python3.5的环境（2.7不行，3.6也不行）
+Anaconda3.5（Anaconda3-4.2.0）下载链接https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/ （注意4.3.1是python3.6）
+
+2.如果电脑已安装Anaconda2, 则Anaconda3安装在2的envs目录下（需要新建文件夹，例如py3）
+当电脑上有两个版本的python，python命令默认执行python2，使用命令'activate py3'即可激活python3，用deactivate 即可退出。
+
+3.用pip install --upgrade tensorflow 即可安装该模块（参考INSTALL文档）
+在pycharm中的 file-setting-project-project interpreter中添加 Python 3.5.2 (C:\Anaconda2\envs\py3\python.exe)
+
+4.如果用conda命令，出现不是系统命令或文件，可以查看在系统变量中是否没有添加C:\Anaconda2\Scripts的路径。
+
+5.《TensorFlow and deep learning,without a PhD》中文参考教程：http://www.w2bc.com/article/231204；
+英文原版教程：https://codelabs.developers.google.com/codelabs/cloud-tensorflow-mnist/#0
+
+6.TensorFlow 教程https://www.tensorflow.org/api_docs/python/；
+MNIST数据集：https://www.tensorflow.org/get_started/mnist/beginners.
+
+7.TensorFlow 游乐场http://playground.tensorflow.org/
+
